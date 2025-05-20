@@ -12,6 +12,10 @@ export default function LoginPage() {
           </div>
         </div>
         <Suspense>
+          <div className='p-4 border border-gray-300 rounded '>
+          <p>User: user@nextmail.com</p>
+          <p>Password: 123456</p>
+          </div>
           <LoginForm />
         </Suspense>
       </div>
